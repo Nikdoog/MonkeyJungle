@@ -1,0 +1,32 @@
+{
+  "name": "epicmonkeyjungle",
+  "version": "1.0.0",
+  "description": "Monkey facts and cool things",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ejs",
+    "start": "node index.ejs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikdoog/MonkeyJungle.git"
+  },
+  "keywords": [
+    "monkey",
+    "ape",
+    "chimp",
+    "facts"
+  ],
+  "author": "Nick Good",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Nikdoog/MonkeyJungle/issues"
+  },
+  "homepage": "https://github.com/Nikdoog/MonkeyJungle#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
