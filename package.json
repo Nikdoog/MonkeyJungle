@@ -4,8 +4,8 @@
   "description": "Monkey facts and cool things",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.ejs",
-    "start": "node index.ejs",
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
